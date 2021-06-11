@@ -1,0 +1,46 @@
+.start
+{
+  background-color:#1abc9c ;
+  background-position: center center;
+  background-size: cover;
+  width: 100%;
+
+}
+.text-address
+{
+  font-size: 70px;
+}
+.icon
+{
+  color: white;
+  font-size: 30px;
+}
+
+
+
+.h-after
+{
+    position: relative;
+}
+.h-after::after
+{
+    content: " ";
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50px;
+    width: 100px;
+    height: 5px;
+
+}
+.h-after::before
+{
+    content: " ";
+    background-color:white;
+    position: absolute;
+    top: 50%;
+    right: 50px;
+    width: 100px;
+    height: 5px;
+
+}

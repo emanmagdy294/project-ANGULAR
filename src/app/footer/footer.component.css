@@ -1,0 +1,108 @@
+
+/*******footer******/
+.foot
+{
+  background-color: #2c3e50;
+}
+.view
+{
+    color: gray;
+
+}
+.view:hover
+{
+    color: #f77e7e ;
+}
+.btns
+{
+    background-color: transparent;
+    border: solid 1px gray;
+    border-radius: 3px;
+    margin: 2px;
+}
+.btns a
+{
+    color: gray;
+}
+.btns:hover
+{
+    border:solid 2px red;
+}
+.btns:hover a
+{
+    color: red;
+    text-decoration: none;
+}
+
+.foot-social
+{  background-color: #1b2631;
+
+}
+
+.icon
+{
+    color: #f7f7f7;
+    font-size:30px ;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    line-height: 1.55;
+    margin: 0 auto;
+    text-align: center;
+    box-shadow: 0 0 0 3px #d8dee6;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: 1s;
+    cursor: pointer;
+}
+.icon:hover
+{
+    background-color:rgb(114, 114, 155);
+
+    box-shadow: 0 0 0 10px rgba(253, 253, 255, 0.7);
+}
+.h
+{
+    color: white;
+    transition: 1s;
+}
+.h:hover
+{
+    color: #f25454;
+    text-decoration: none;
+
+}
+.boxs{
+    background-color: #d66b6b;
+    border-radius: 50%;
+    font-size:30px ;
+    height: 50px;
+    width: 50px;
+    line-height: 1.55;
+    margin: 0 auto;
+    text-align: center;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: 1s;
+}
+.boxs:hover
+{
+    background-color: #f25454;
+}
+.f-icon
+{
+    transition: 1s;
+    color: white;
+}
+.f-icon:hover
+{
+    color: white;
+}
+
+.font
+{
+  font-size: 25px;
+  font-weight: bolder;
+}

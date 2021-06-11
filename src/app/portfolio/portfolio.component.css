@@ -1,0 +1,183 @@
+/* .h-after
+{
+    position: relative;
+}
+.h-after::after
+{
+    content: " ";
+    background-color: #2c3e50;
+    position: absolute;
+    top: 50%;
+    left: 600px;
+    width: 100px;
+    height: 5px;
+
+}
+.h-after::before
+{
+    content: " ";
+    background-color:#2c3e50;
+    position: absolute;
+    top: 50%;
+    right: 600px;
+    width: 100px;
+    height: 5px;
+
+}
+
+
+
+/******/
+
+/*
+.member
+{
+    transition: 1s;
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+    transition-duration: .5s;
+}
+
+.caption
+{
+    position: absolute;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    transition: top 1s;
+    overflow: hidden;
+}
+
+.member:hover .caption
+{
+    top: 0px;
+    transition-duration: .5s;
+    background-color: rgba(26, 188, 156, 0.7);
+    border-radius: 10px;
+}
+.member-icon
+{
+  font-size: 70px;
+  color: white;
+} */
+/*****/
+/* .item
+{
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+.lightbox-container
+{
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.5);
+
+}
+.lightbox-item
+{
+    height: 550px;
+    width: 45%;
+    background-image: url(../images/portfolio-2.jpg);
+    background-size: 100% 100%;
+}
+.lightbox-item i
+{
+    font-size: 20px;
+    margin: 10px;
+    cursor: po;
+
+}
+#closeBtn
+{
+    position: absolute;
+    top: 20px;
+    right: 10px;
+} */
+
+.h-after
+{
+    position: relative;
+}
+.h-after::after
+{
+    content: " ";
+    background-color: #2c3e50;
+    position: absolute;
+    top: 50%;
+    left: 600px;
+    width: 100px;
+    height: 5px;
+
+}
+.h-after::before
+{
+    content: " ";
+    background-color:#2c3e50;
+    position: absolute;
+    top: 50%;
+    right: 600px;
+    width: 100px;
+    height: 5px;
+}
+.about-text
+{
+  color: #2c3e50;
+  font-size: 50px;
+  font-weight: bolder;
+}
+
+img{
+  border-radius: 10px;
+}
+.portfolio h1 {
+  color: #2c3e50;
+}
+.portfolio .component-star i {
+  background-color: #fff;
+}
+.portfolio .component-star::after {
+  background-color: #2c3e50;
+}
+.portfolio-box {
+  cursor: pointer;
+  position: relative;
+  border-radius: 10px;
+}
+.portfolio-box::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  z-index: 100;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: transparent;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+.portfolio-box i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 200;
+  opacity: 0;
+  color: #fff;
+  font-size: 50px;
+  transition: all 0.3s ease;
+}
+.portfolio-box .portfolio-img {
+  width: 100%;
+  height: 100%;
+}
+.portfolio-box:hover::after {
+  background-color: #29b197eb;
+}
+.portfolio-box:hover i {
+  opacity: 1;
+}

@@ -1,0 +1,48 @@
+.h-after
+{
+    position: relative;
+}
+.h-after::after
+{
+    content: " ";
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 600px;
+    width: 100px;
+    height: 5px;
+
+}
+.about-text
+{
+  color: white;
+  font-size: 50px;
+  font-weight: bolder;
+}
+.icon
+{
+  color: white;
+  font-size: 30px;
+}
+.h-after::before
+{
+    content: " ";
+    background-color:white;
+    position: absolute;
+    top: 50%;
+    right: 600px;
+    width: 100px;
+    height: 5px;
+
+}
+
+.about-bg
+{ background-color:#1abc9c ;
+  background-position: center center;
+  background-size: cover;
+  width: 100%;
+}
+.pragraph-style
+{
+  font-size:20px ;
+}
